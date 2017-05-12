@@ -8,16 +8,17 @@
 </div>
 
 <div class="row">
-    <div class="col-md-3">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" />
-            <span class="input-group-btn">
-                <button type="submit">
-                    <span class="glyphicon glyphicon-search"></span>
-                </button>
-            </span>
-        </div>
-    </div>
+    <label for="FriendSearch">
+        Search your friend's name here
+        <input id="Friend_Search" list="friends">
+        <datalist id="friends">
+            <option value="Delia Harris"></option>
+            <option value="Beverly Roy"></option>
+            <option value="Eleanor Rivera"></option>
+            <option value="Jody Mendoza"></option>
+        </datalist>
+    </label>
+    @Html.ActionLink("GO!", "Profile_Friend", "Home", new { @class = "btn btn-primary" })
 </div>
 
 <div class="row">
@@ -41,8 +42,8 @@
             Alan <br />
             Danny<br />
             Matt <br />
-            Khoa 
+            Khoa
         </p>
     </div>
-</div>
+ </div>
     

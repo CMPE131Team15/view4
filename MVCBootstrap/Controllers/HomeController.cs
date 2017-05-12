@@ -35,6 +35,12 @@ namespace MVCBootstrap.Controllers
 
             return View();
         }
+        public ActionResult Profile_Friend()
+        {
+            ViewBag.Message = "Friend's Profile page.";
+
+            return View();
+        }
 
         public ActionResult FAQs()
         {
