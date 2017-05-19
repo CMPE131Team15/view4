@@ -219,6 +219,7 @@
     <Content Include="Views\Home\Threads.cshtml" />
     <Content Include="Views\Home\GeneratedSchedule.cshtml" />
     <Content Include="Views\Home\Profile_Friend.cshtml" />
+    <Content Include="Views\Home\Edit_Profile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
